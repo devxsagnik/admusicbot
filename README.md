@@ -10,7 +10,7 @@
 2.1 **(Optional)** Soundcloud Client ID - SoundCloud is no more providing APIs so no need of api.**
 3. Node.js v12.0.0 or newer
 
-## 🚀 Getting Started
+## 🏁 Starting
 
 Heroku provides 1 month of free dyno hours.So we dont recommend you to deploy it to Heroku as it can make your bot offline after 1 month.
 You can use our Discord Pinger which will ping your Project every 5 min.
@@ -47,15 +47,15 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
 
 > Note: The default prefix is 'ad!'
 
-* 🎶 Play music from YouTube via url
+* 🎶 Using YouTube Url
 
 `ad!play https://www.youtube.com/watch?v=GLvohMXgcBo`
 
-* 🔎 Play music from YouTube via search query
+* 🔎 Playing music via Name
 
 `ad!play under the bridge red hot chili peppers`
 
-* 🔎 Search and select music to play
+* 🔎 Search and play
 
 `ad!search Pearl Jam`
 
@@ -63,13 +63,16 @@ Reply with song number or numbers seperated by comma that you wish to play
 
 Examples: `1` or `1,2,3`
 
-* 📃 Play youtube playlists via url
+* 📃 Play a playlist directly from youtube to Discord
 
 `ad!playlist https://www.youtube.com/watch?v=YlUKcNNmywk&list=PL5RNCwK3GIO13SR_o57bGJCEmqFAwq82c`
 
 * 🔎 Play youtube playlists via search query
 
 `ad!playlist linkin park meteora`
+
+**Commands of Our Bot**
+
 * Now Playing (ad!np)
 * Queue system (ad!queue, ad!q)
 * Loop / Repeat (ad!loop)
