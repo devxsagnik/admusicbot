@@ -36,7 +36,7 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
   "YOUTUBE_API_KEY": "",
   "SOUNDCLOUD_CLIENT_ID": "",
   "MAX_PLAYLIST_SIZE": 10,
-  "PREFIX": "/",
+  "PREFIX": "ad!",
   "PRUNING": false,
   "STAY_TIME": 30,
   "DEFAULT_VOLUME": 100
@@ -45,23 +45,19 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
 
 ## 📝 Features & Commands
 
-> Note: The default prefix is '/'
+> Note: The default prefix is 'ad!'
 
 * 🎶 Play music from YouTube via url
 
-`/play https://www.youtube.com/watch?v=GLvohMXgcBo`
+`ad!play https://www.youtube.com/watch?v=GLvohMXgcBo`
 
 * 🔎 Play music from YouTube via search query
 
-`/play under the bridge red hot chili peppers`
-
-* 🎶 Play music from Soundcloud via url
-
-`/play https://soundcloud.com/blackhorsebrigade/pearl-jam-alive`
+`ad!play under the bridge red hot chili peppers`
 
 * 🔎 Search and select music to play
 
-`/search Pearl Jam`
+`ad!search Pearl Jam`
 
 Reply with song number or numbers seperated by comma that you wish to play
 
@@ -69,24 +65,24 @@ Examples: `1` or `1,2,3`
 
 * 📃 Play youtube playlists via url
 
-`/playlist https://www.youtube.com/watch?v=YlUKcNNmywk&list=PL5RNCwK3GIO13SR_o57bGJCEmqFAwq82c`
+`ad!playlist https://www.youtube.com/watch?v=YlUKcNNmywk&list=PL5RNCwK3GIO13SR_o57bGJCEmqFAwq82c`
 
 * 🔎 Play youtube playlists via search query
 
-`/playlist linkin park meteora`
-* Now Playing (/np)
-* Queue system (/queue, /q)
-* Loop / Repeat (/loop)
-* Shuffle (/shuffle)
-* Volume control (/volume, /v)
-* Lyrics (/lyrics, /ly)
-* Pause (/pause)
-* Resume (/resume, /r)
-* Skip (/skip, /s)
-* Skip to song # in queue (/skipto, /st)
-* Remove song # from queue (/remove, /rm)
-* Toggle pruning of bot messages (/pruning)
-* Help (/help, /h)
+`ad!playlist linkin park meteora`
+* Now Playing (ad!np)
+* Queue system (ad!queue, ad!q)
+* Loop / Repeat (ad!loop)
+* Shuffle (ad!shuffle)
+* Volume control (ad!volume, ad!v)
+* Lyrics (ad!lyrics, ad!ly)
+* Pause (ad!pause)
+* Resume (ad!resume, ad!r)
+* Skip (ad!skip, ad!s)
+* Skip to song # in queue (ad!skipto, ad!st)
+* Remove song # from queue (ad!remove, ad!rm)
+* Toggle pruning of bot messages (ad!pruning)
+* Help (ad!help, ad!h)
 * Command Handler from [discordjs.guide](https://discordjs.guide/)
-* Media Controls via Reactions
+* Controls your Discord Bot via Reactions
 ![reactions](https://cdn.discordapp.com/attachments/785811074603024386/785897940341489704/IMG_20201208_212707.jpg)
