@@ -49,15 +49,15 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
 
 * 🎶 Using YouTube Url
 
-`ad!play https://www.youtube.com/watch?v=GLvohMXgcBo`
+`ad!play https://www.youtube.com/c/ANDROIDDISCORD`
 
 * 🔎 Playing music via Name
 
-`ad!play under the bridge red hot chili peppers`
+`ad!play Let me love you`
 
 * 🔎 Search and play
 
-`ad!search Pearl Jam`
+`ad!search NCS Astronomia`
 
 Reply with song number or numbers seperated by comma that you wish to play
 
@@ -65,11 +65,11 @@ Examples: `1` or `1,2,3`
 
 * 📃 Play a playlist directly from youtube to Discord
 
-`ad!playlist https://www.youtube.com/watch?v=YlUKcNNmywk&list=PL5RNCwK3GIO13SR_o57bGJCEmqFAwq82c`
+`ad!playlist https://www.youtube.com/playlist?list=PLeiP6sSl8XyF7qcJ7WR6FjkpKtNBtzkqe`
 
 * 🔎 Play youtube playlists via search query
 
-`ad!playlist linkin park meteora`
+`ad!playlist NCS Releases`
 
 **Commands of Our Bot**
 
