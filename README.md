@@ -28,7 +28,7 @@ After installation finishes you can use `node index.js` to start the bot.
 
 Copy or Rename `config.json.example` to `config.json` and fill out the values:
 
-⚠️ **Note: Never commit or share your token or api keys publicly** ⚠️
+⚠️ **Note: Never commit or share your token or api keys publicly or in unauthorised sites or use .gitignore to hide them** ⚠️
 
 ```json
 {
@@ -38,7 +38,8 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
   "MAX_PLAYLIST_SIZE": 10,
   "PREFIX": "/",
   "PRUNING": false,
-  "STAY_TIME": 30
+  "STAY_TIME": 30,
+  "DEFAULT_VOLUME": 100
 }
 ```
 
