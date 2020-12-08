@@ -1,6 +1,6 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/eritislami/evobot)
 
-# 🤖 Android Discofd (Discord Music Bot)
+# 🤖 Android Discord (Discord Music Bot)
 > AD is a Discord Music Bot built with discord.js & uses Command Handler from [discordjs.guide](https://discordjs.guide)
 
 ## Installation
