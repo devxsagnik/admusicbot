@@ -66,6 +66,7 @@ Examples: `1` or `1,2,3`
 * 📃 Play a playlist directly from youtube to Discord
 
 `ad!playlist https://www.youtube.com/playlist?list=PLeiP6sSl8XyF7qcJ7WR6FjkpKtNBtzkqe`
+![playlist](https://cdn.discordapp.com/attachments/785811074603024386/786053415129055232/IMG_20201209_074321.jpg)
 
 * 🔎 Play youtube playlists via search query
 
