@@ -71,6 +71,7 @@ Examples: `1` or `1,2,3`
 * 🔎 Play youtube playlists via search query
 
 `ad!playlist NCS Releases`
+![search](https://cdn.discordapp.com/attachments/785811074603024386/786054390053339146/IMG_20201209_074924.jpg)
 
 **Commands of Our Bot**
 
