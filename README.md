@@ -7,8 +7,8 @@
 
 1. How to obtain a Discord Bot Token **[Guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)**
 2. YouTube Data API v3 Key **[Guide](https://developers.google.com/youtube/v3/getting-started)**  
-2.1 **(Optional)** Soundcloud Client ID - SoundCloud is no more providing APIs so no need of api.**
-3. Node.js v12.0.0 or newer
+3. SoundCloud is no more providing APIs so no need of api.**
+4. Node.js v12.0.0 or newer
 
 ## 🏁 Starting
 
@@ -28,7 +28,7 @@ After installation finishes you can use `node index.js` to start the bot.
 
 Copy or Rename `config.json.example` to `config.json` and fill out the values:
 
-⚠️ **Note: Never commit or share your token or api keys publicly or in unauthorised sites or use .gitignore to hide them** ⚠️
+🚨🚨 **Commiting your token to be accessed by others or making it public is strictly prohibited.So, dont share your token in any cost or use .gitignore to hide secrets** 🚨🚨
 
 ```json
 {
