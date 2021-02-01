@@ -91,3 +91,6 @@ Examples: `1` or `1,2,3`
 * Command Handler from [discordjs.guide](https://discordjs.guide/)
 * Controls your Discord Bot via Reactions
 ![reactions](https://cdn.discordapp.com/attachments/785811074603024386/785897940341489704/IMG_20201208_212707.jpg)
+
+
+Main Credits go to @iCrawl for making evobot successfully the best music bot...😍
