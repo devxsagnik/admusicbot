@@ -62,6 +62,7 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
   "PRUNING": false,
   "STAY_TIME": 30,
   "LOCALE": "en",
+  "support_server": "",
   "DEFAULT_VOLUME": 100
 }
 ```
