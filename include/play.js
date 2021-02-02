@@ -85,7 +85,13 @@ module.exports = {
 
     try {
       var playingMessage = await queue.textChannel.send(
-        i18n.__mf("play.startedPlaying", { title: song.title})
+        new MessageEmbed()
+        .setTitle("Now Playing")
+        .setURL(`${song.url}`)
+        .setThumbnail(message.author.displayAvatarURL({ format: "png" }))
+        .setDescription(i18n.__mf("play.startedPlaying", { title: song.title}))
+        .setFooter(`Requested by ${message.author.username}`)
+        .setTimestamp()
       );
       await playingMessage.react("⏭");
       await playingMessage.react("⏯");
