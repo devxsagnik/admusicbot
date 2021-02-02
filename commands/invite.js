@@ -1,8 +1,11 @@
-const { MessageEmbed } = require("discord.js");
+const { LOCALE } = require("../util/EvobotUtil");
+const i18n = require("i18n");
+
+i18n.setLocale(LOCALE);
 
 module.exports = {
   name: "invite",
-  description: "To add/invite the bot to your server",
+  description: i18n.__('invite.description'),
   execute(message, args) {
     //set the permissions id here (https://discordapi.com/permissions.html)
     var permissions = 70282305;

@@ -12,9 +12,21 @@
 
 ## 🏁 Starting
 
-Heroku provides 1 month of free dyno hours.So we dont recommend you to deploy it to Heroku as it can make your bot offline after 1 month.
-You can use our Discord Pinger which will ping your Project every 5 min.
-[Head over to #ping your project in Android Discord](https://discord.gg/mspMU79cGa)
+I will prefer to run it on repl.it as it gives more convinience than glitch website.. Go to repl.it [here](https://repl.it/).To gain free hacker plan, go to [here](https://repl.it/claim) and paste this code there
+
+Code - techwithtim
+
+----
+
+## 🧐 A Major Outlook
+
+After Completing all the required installments and the changes head over to Uptime Robot [here](https://uptimerobot.com/) and login there..Choose the monitor as `https`.Then you would need a link..You could get the link in the web section of you project..First time if you dont run the project you could not see that section.Run the project and you could see it.Then paste the link in uptime robot and take any name and click monitor..And your project will be online 24/7..
+
+---
+
+## 🔎 Making The Project
+
+**For PC users using VS Code** -
 
 ```
 git clone https://github.com/gtagamermods/admusicbot.git
@@ -23,6 +35,16 @@ npm install
 ```
 
 After installation finishes you can use `node index.js` to start the bot.
+
+**For repl.it users** -
+
+**Tap on this --**
+
+[![Use on Repl.it](https://repl.it/badge/github/ZeroDiscord/EconomyBot)](https://repl.it/github/gtagamermods/admusicbot)
+
+```
+Type (npm i) in console
+```
 
 ## ⚙️ Making Files
 
@@ -39,9 +61,21 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
   "PREFIX": "ad!",
   "PRUNING": false,
   "STAY_TIME": 30,
+  "LOCALE": "en",
   "DEFAULT_VOLUME": 100
 }
 ```
+
+Currently available locales are:
+
+• English (en)
+• French (fr)
+• Spanish (es)
+• Turkish (tr)
+• Korean (ko)
+• Brazilian Portuguese (pt_br)
+• Simplified Chinese (zh_cn)
+• Traditional Chinese (zh_tw)
 
 ## 📝 Features & Commands
 
@@ -66,12 +100,12 @@ Examples: `1` or `1,2,3`
 * 📃 Play a playlist directly from youtube to Discord
 
 `ad!playlist https://www.youtube.com/playlist?list=PLeiP6sSl8XyF7qcJ7WR6FjkpKtNBtzkqe`
-![playlist](https://cdn.discordapp.com/attachments/785811074603024386/786053415129055232/IMG_20201209_074321.jpg)
+![playlist](https://media.discordapp.net/attachments/806012341355151400/806012798236229633/playlistplay.png)
 
 * 🔎 Play youtube playlists via search query
 
 `ad!playlist NCS Releases`
-![search](https://cdn.discordapp.com/attachments/785811074603024386/786054390053339146/IMG_20201209_074924.jpg)
+![search](https://media.discordapp.net/attachments/806012341355151400/806013517873676288/playlist.png)
 
 **Commands of Our Bot**
 
@@ -90,9 +124,9 @@ Examples: `1` or `1,2,3`
 * Help (ad!help, ad!h)
 * Command Handler from [discordjs.guide](https://discordjs.guide/)
 * Controls your Discord Bot via Reactions
-![reactions](https://cdn.discordapp.com/attachments/785811074603024386/785897940341489704/IMG_20201208_212707.jpg)
+![reactions](https://media.discordapp.net/attachments/806012341355151400/806013954085617684/play.png)
 
 
-Main Credits go to @iCrawl for making evobot successfully the best music bot...😍
+Main Credits go to [@iCrawl](https://github.com/iCrawl) for making evobot successfully the best music bot...😍
 Get evobot repo here - 
 https://github.com/eritislami/evobot
