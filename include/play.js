@@ -1,4 +1,5 @@
 const ytdl = require("ytdl-core-discord");
+const { MessageEmbed } = require("discord.js");
 const scdl = require("soundcloud-downloader").default;
 const { canModifyQueue, STAY_TIME, LOCALE } = require("../util/EvobotUtil");
 const i18n = require("i18n");
@@ -91,6 +92,7 @@ module.exports = {
         .setThumbnail(message.author.displayAvatarURL({ format: "png" }))
         .setDescription(i18n.__mf("play.startedPlaying", { title: song.title}))
         .setFooter(`Requested by ${message.author.username}`)
+        .setColor("RANDOM")
         .setTimestamp()
       );
       await playingMessage.react("⏭");

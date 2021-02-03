@@ -1,5 +1,6 @@
 const { LOCALE } = require("../util/EvobotUtil");
 const i18n = require("i18n");
+const { MessageEmbed } = require("discord.js");
 
 i18n.setLocale(LOCALE);
 

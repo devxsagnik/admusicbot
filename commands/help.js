@@ -1,5 +1,5 @@
 const { MessageEmbed } = require("discord.js");
-const { sp } = require("../config.json")
+const { support_server } = require("../config.json");
 const { LOCALE } = require("../util/EvobotUtil");
 const i18n = require("i18n");
 
@@ -27,7 +27,7 @@ module.exports = {
         true
       );
     });
-    helpEmbed.addField(`**Links!**`, `**[Support Server](${sp}) • [Invite](https://discord.com/oauth2/authorize?client_id=${message.client.user.id}&permissions=70282305&scope=bot)**`)
+    helpEmbed.addField(`**Links!**`, `**[Support Server](${support_server || "https://discord.gg/HMEKZdEExZ"}) • [Invite](https://discord.com/oauth2/authorize?client_id=${message.client.user.id}&permissions=70282305&scope=bot)**`)
 
     helpEmbed.setTimestamp();
 
