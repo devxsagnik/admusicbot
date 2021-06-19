@@ -14,16 +14,16 @@ console.log(`Your app is listening a http://localhost/${port}`)
 const { Client, Collection } = require("discord.js");
 const { readdirSync } = require("fs");
 const { join } = require("path");
-const { TOKEN, PREFIX, LOCALE } = require("./util/EvobotUtil");
+const { TOKEN, PREFIX, LOCALE } = require("./util/AdUtil");
 const path = require("path");
 const i18n = require("i18n");
 
-const client = new Client({ 
+const client = new Client({
   disableMentions: "everyone",
   restTimeOffset: 0
 });
 
-client.login(TOKEN);
+client.login(process.env.TOKEN);
 client.commands = new Collection();
 client.prefix = PREFIX;
 client.queue = new Map();
@@ -31,7 +31,7 @@ const cooldowns = new Collection();
 const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 i18n.configure({
-  locales: ["en", "es", "ko", "fr", "tr", "pt_br", "zh_cn", "zh_tw"],
+  locales: ["ar", "de", "en", "es", "fr", "it", "ko", "nl", "pl", "pt_br", "ru", "sv", "tr", "zh_cn", "zh_tw"],
   directory: path.join(__dirname, "locales"),
   defaultLocale: "en",
   objectNotation: true,

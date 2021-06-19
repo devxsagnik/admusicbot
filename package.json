@@ -1,18 +1,18 @@
 {
-  "name": "evobot",
-  "version": "0.9.0",
+  "name": "admusicbot",
+  "version": "2.0.0",
   "description": "Discord music bot built with discord.js",
   "main": "index.js",
-  "author": "Erit Islami <eritislami@gmail.com>",
+  "author": "Felix_PlaYz",
   "private": true,
-  "homepage": "https://github.com/eritislami/evobot",
-  "repository": "github:eritislami/evobot",
-  "bugs": "https://github.com/eritislami/evobot/issues",
+  "homepage": "https://github.com/gtagamermods/admusicbot",
+  "repository": "github:gtagamermods/admusicbot",
+  "bugs": "https://github.com/gtagamermods/admusicbot/issues",
   "engines": {
     "node": ">=12.0.0"
   },
   "dependencies": {
-    "@discordjs/opus": "^0.3.3",
+    "@discordjs/opus": "^0.5.3",
     "array-move": "^3.0.1",
     "discord.js": "^12.5.1",
     "express": "^4.17.1",
@@ -22,7 +22,7 @@
     "simple-youtube-api": "^5.2.1",
     "soundcloud-downloader": "^0.2.1",
     "string-progressbar": "^1.0.1",
-    "ytdl-core": "^4.4.5",
+    "ytdl-core": "^4.8.2",
     "ytdl-core-discord": "^1.2.5"
   },
   "scripts": {

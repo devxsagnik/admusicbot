@@ -1,5 +1,5 @@
 const move = require("array-move");
-const { canModifyQueue, LOCALE } = require("../util/EvobotUtil");
+const { canModifyQueue, LOCALE } = require("../util/AdUtil");
 const i18n = require("i18n");
 
 i18n.setLocale(LOCALE);

@@ -9,7 +9,7 @@ const {
   MAX_PLAYLIST_SIZE,
   DEFAULT_VOLUME,
   LOCALE
-} = require("../util/EvobotUtil");
+} = require("../util/AdUtil");
 const youtube = new YouTubeAPI(YOUTUBE_API_KEY);
 const i18n = require("i18n");
 

@@ -1,10 +1,9 @@
 const { play } = require("../include/play");
 const ytdl = require("ytdl-core");
 const YouTubeAPI = require("simple-youtube-api");
-const scdl = require("soundcloud-downloader").default;
+const scdl = require("soundcloud-downloader").default
 const https = require("https");
-const { MessageEmbed } = require("discord.js");
-const { YOUTUBE_API_KEY, SOUNDCLOUD_CLIENT_ID, LOCALE, DEFAULT_VOLUME } = require("../util/EvobotUtil");
+const { YOUTUBE_API_KEY, SOUNDCLOUD_CLIENT_ID, LOCALE, DEFAULT_VOLUME } = require("../util/AdUtil");
 const youtube = new YouTubeAPI(YOUTUBE_API_KEY);
 const i18n = require("i18n");
 
@@ -105,6 +104,12 @@ module.exports = {
     } else {
       try {
         const results = await youtube.searchVideos(search, 1, { part: "snippet" });
+        // PATCH 1 : avoid cases when there are nothing on the search results.
+        if (results.length <= 0) {
+          // No video results.
+          message.reply(i18n.__mf("play.songNotFound")).catch(console.error);
+          return;
+        }
         songInfo = await ytdl.getInfo(results[0].url);
         song = {
           title: songInfo.videoDetails.title,

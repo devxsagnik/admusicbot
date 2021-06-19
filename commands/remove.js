@@ -1,4 +1,4 @@
-const { canModifyQueue, LOCALE } = require("../util/EvobotUtil");
+const { canModifyQueue, LOCALE } = require("../util/AdUtil");
 const i18n = require("i18n");
 i18n.setLocale(LOCALE);
 
@@ -15,23 +15,29 @@ module.exports = {
     if (!canModifyQueue(message.member)) return i18n.__("common.errorNotChannel");
     if (!args.length) return message.reply(i18n.__mf("remove.usageReply", { prefix: message.client.prefix }));
 
-    const argu = args.join("");
-    const songs = argu.split(",").map((arg) => parseInt(arg));
+    const arguments = args.join("");
+    const songs = arguments.split(",").map((arg) => parseInt(arg));
     let removed = [];
 
-    if (pattern.test(argu)) {
+    if (pattern.test(arguments)) {
       queue.songs = queue.songs.filter((item, index) => {
         if (songs.find((songIndex) => songIndex - 1 === index)) removed.push(item);
         else return true;
       });
 
       queue.textChannel.send(
-        `${message.author} ❌ removed **${removed.map((song) => song.title).join("\n")}** from the queue.`
+        i18n.__mf("remove.result", {
+          title: removed.map((song) => song.title).join("\n"),
+          author: message.author.id
+        })
       );
     } else if (!isNaN(args[0]) && args[0] >= 1 && args[0] <= queue.songs.length) {
       console.log("we got elsed!");
       return queue.textChannel.send(
-        `${message.author} ❌ removed **${queue.songs.splice(args[0] - 1, 1)[0].title}** from the queue.`
+        i18n.__mf("remove.result", {
+          title: queue.songs.splice(args[0] - 1, 1)[0].title,
+          author: message.author.id
+        })
       );
     } else {
       console.log("we got the last one");

@@ -10,8 +10,8 @@
   },
   "help": {
     "description": "Display all commands and descriptions",
-    "embedTitle": "**List of all my commands**",
-    "embedDescription": "Invite me in your server to enjoy this commands"
+    "embedTitle": "{botname} Help",
+    "embedDescription": "List of all commands"
   },
   "invite": {
     "description": "Send bot invite link"
@@ -60,7 +60,7 @@
     "cantJoinChannel": "Could not join the channel: {error}",
     "queueEnded": "❌ Music queue ended.",
     "queueError": "Error: {error}",
-    "startedPlaying": "🎶 Started playing: **{title}**",
+    "startedPlaying": "🎶 Started playing: **{title}** {url}",
     "skipSong": "<@{author}> ⏩ skipped the song",
     "pauseSong": "<@{author}> ⏸ paused the music.",
     "resumeSong": "<@{author}> ▶ resumed the music!",
@@ -70,7 +70,8 @@
     "increasedVolume": "<@{author}> 🔊 increased the volume, the volume is now {volume}%",
     "loopSong": "<@{author}> Loop is now {loop}",
     "stopSong": "<@{author}> ⏹ stopped the music!",
-    "leaveChannel": "Leaving voice channel..."
+    "leaveChannel": "Leaving voice channel...",
+    "songNotFound": "Audio Not Found"
   },
   "playlist": {
     "description": "Play a playlist from youtube",

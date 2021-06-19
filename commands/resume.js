@@ -1,4 +1,4 @@
-const { canModifyQueue, LOCALE } = require("../util/EvobotUtil");
+const { canModifyQueue, LOCALE } = require("../util/AdUtil");
 const i18n = require("i18n");
 
 i18n.setLocale(LOCALE);
@@ -23,5 +23,3 @@ module.exports = {
     return message.reply(i18n.__("resume.errorPlaying")).catch(console.error);
   }
 };
-
-

@@ -1,5 +1,5 @@
 const fs = require("fs");
-const { LOCALE } = require("../util/EvobotUtil");
+const { LOCALE } = require("../util/AdUtil");
 const i18n = require("i18n");
 
 i18n.setLocale(LOCALE);
@@ -28,7 +28,7 @@ module.exports = {
       return message.channel
         .send(
           i18n.__("pruning.result", {
-            loop: config.PRUNING ? i18n.__("common.enabled") : i18n.__("common.disabled")
+            result: config.PRUNING ? i18n.__("common.enabled") : i18n.__("common.disabled")
           })
         )
         .catch(console.error);
