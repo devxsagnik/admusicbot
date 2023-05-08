@@ -54,15 +54,15 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
 
 ```json
 {
-  "TOKEN": "",
-  "YOUTUBE_API_KEY": "",
+  "TOKEN": "MTEwNTIzMjI1MjM0ODE0NTc1NQ.G7yDzl.ztkIOdxxPLUuevHPRpZW8WgRHCVx1nHdOKKtlI",
+  "YOUTUBE_API_KEY": "AIzaSyA_JVbwwo1eOrS8gRZzBhuLfBescXpCRy",
   "SOUNDCLOUD_CLIENT_ID": "",
   "MAX_PLAYLIST_SIZE": 10,
-  "PREFIX": "ad!",
+  "PREFIX": "L/",
   "PRUNING": false,
   "STAY_TIME": 30,
   "LOCALE": "en",
-  "support_server": "",
+  "support_server": "https://discord.gg/dArFGHdv",
   "DEFAULT_VOLUME": 100
 }
 ```
@@ -84,7 +84,7 @@ Currently available locales are:
 
 * 🎶 Using YouTube Url
 
-`ad!play https://www.youtube.com/c/ANDROIDDISCORD`
+`L!play https://www.youtube.com/c/ANDROIDDISCORD`
 
 * 🔎 Playing music via Name
 
@@ -122,7 +122,7 @@ Examples: `1` or `1,2,3`
 * Skip to song # in queue (ad!skipto, ad!st)
 * Remove song # from queue (ad!remove, ad!rm)
 * Toggle pruning of bot messages (ad!pruning)
-* Help (ad!help, ad!h)
+* Help (L!help, L!h)
 * Command Handler from [discordjs.guide](https://discordjs.guide/)
 * Controls your Discord Bot via Reactions
 ![reactions](https://media.discordapp.net/attachments/806012341355151400/806013954085617684/play.png)
