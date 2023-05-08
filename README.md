@@ -54,11 +54,11 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
 
 ```json
 {
-  "TOKEN": "",
-  "YOUTUBE_API_KEY": "",
+  "TOKEN": "MTEwNTIzMjI1MjM0ODE0NTc1NQ.G7yDzl.ztkIOdxxPLUuevHPRpZW8WgRHCVx1nHdOKKtlI",
+  "YOUTUBE_API_KEY": "AIzaSyA_JVbwwo1eOrS8gRZzBhuLfBescXpCRy",
   "SOUNDCLOUD_CLIENT_ID": "",
   "MAX_PLAYLIST_SIZE": 10,
-  "PREFIX": "ad!",
+  "PREFIX": "L/",
   "PRUNING": false,
   "STAY_TIME": 30,
   "LOCALE": "en",
